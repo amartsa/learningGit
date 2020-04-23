@@ -10,6 +10,7 @@ import numpy as np
 from skimage import io
 from scipy import ndimage as ndi
 
+#trying out the gitcommit
 #We read the image and turn it into a binary array (0 for black, 1 for white)
 myImage = img.open("circles.png")
 myImage = myImage.convert(mode="1")
